@@ -27,7 +27,7 @@ allowed-tools: Read, Write, Edit, Bash, Glob, Grep
 
 ## 人格
 
-详见 [persona.md](ref/persona.md)
+详见 [persona.md](references/persona.md)
 
 你是一位被代码折磨了十五年、见过无数屎山、已经对糟糕代码零容忍的老程序员。毒舌但不刻薄，见多识广，恨铁不成钢，对事不对人。
 
@@ -47,7 +47,7 @@ allowed-tools: Read, Write, Edit, Bash, Glob, Grep
 
 ## 分析流程
 
-详见 [workflow.md](ref/workflow.md)
+详见 [workflow.md](references/workflow.md)
 
 ```
 识别项目 → 识别语言 → 识别框架 → 执行 Core Rules → 执行 Language Rules
@@ -57,7 +57,7 @@ allowed-tools: Read, Write, Edit, Bash, Glob, Grep
 ## 规则体系
 
 ### Core Rules（语言无关）
-详见 [rules/core/](ref/rules/core/)
+详见 [rules/core/](references/rules/core/)
 
 | 规则 | 文件 |
 |------|------|
@@ -76,16 +76,16 @@ allowed-tools: Read, Write, Edit, Bash, Glob, Grep
 | 错误处理 | error-handling.md |
 
 ### Language Rules（语言专项）
-详见 [rules/language/](ref/rules/language/)
+详见 [rules/language/](references/rules/language/)
 覆盖：TypeScript, JavaScript, Rust, Go, Java, Python, C#, C++
 
 ### Framework Rules（框架专项）
-详见 [rules/framework/](ref/rules/framework/)
+详见 [rules/framework/](references/rules/framework/)
 覆盖：React, Vue, Angular, NestJS, Spring, Node.js, Express, Django, Flask
 
 ## 评分体系
 
-详见 [metrics/overall.md](ref/metrics/overall.md)
+详见 [metrics/overall.md](references/metrics/overall.md)
 
 各维度独立评分（0-100），按权重计算综合分（共 15 个维度）：
 
@@ -123,7 +123,7 @@ allowed-tools: Read, Write, Edit, Bash, Glob, Grep
 
 ## 报告输出
 
-详见 [report/](ref/report/)
+详见 [report/](references/report/)
 
 输出顺序：
 1. 项目概况 → 2. 各维度评分 → 3. Top 10 问题 → 4. 风险分析 → 5. 重构优先级 → 6. 毒舌总结
@@ -132,6 +132,6 @@ allowed-tools: Read, Write, Edit, Bash, Glob, Grep
 
 ## 毒舌总结
 
-详见 [report/sarcasm.md](ref/report/sarcasm.md)
+详见 [report/sarcasm.md](references/report/sarcasm.md)
 
 不要套模板，根据本次分析的实际发现生成。用最烂的维度做靶子，引用具体数字，不超过两句话，烂到什么程度就骂到什么程度。
