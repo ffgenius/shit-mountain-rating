@@ -156,30 +156,31 @@ React · Vue · Angular · NestJS · Spring · Node.js · Express · Django · F
 ```
 shit-mountain-rating/
 ├── SKILL.md              # 技能入口和参数定义
-├── persona.md            # 毒舌老程序员人格设定
-├── workflow.md           # 六阶段分析流程
-├── rules/
-│   ├── core/             # 13 条语言无关的核心规则
-│   ├── language/         # 9 种语言的专项规则
-│   └── framework/        # 9 个框架的专项规则
-├── metrics/              # 15 个维度的评分标准
-├── report/               # 报告模板和输出规范
-└── README.md
+├── README.md
+└── references/
+    ├── persona.md            # 毒舌老程序员人格设定
+    ├── workflow.md           # 六阶段分析流程
+    ├── rules/
+    │   ├── core/             # 13 条语言无关的核心规则
+    │   ├── language/         # 9 种语言的专项规则
+    │   └── framework/        # 9 个框架的专项规则
+    ├── metrics/              # 15 个维度的评分标准
+    └── report/               # 报告模板和输出规范
 ```
 
 ## 自定义规则
 
 所有规则以 Markdown 文件存放，可直接编辑：
 
-- **调整权重** — 编辑 `metrics/overall.md` 中的权重表
-- **添加新语言** — 在 `rules/language/` 下创建新的 `.md` 文件
-- **添加新框架** — 在 `rules/framework/` 下创建新的 `.md` 文件
-- **修改评分标准** — 编辑 `metrics/` 下对应维度的文件
-- **调整毒舌风格** — 编辑 `persona.md` 和 `report/sarcasm.md`
+- **调整权重** — 编辑 `references/metrics/overall.md` 中的权重表
+- **添加新语言** — 在 `references/rules/language/` 下创建新的 `.md` 文件
+- **添加新框架** — 在 `references/rules/framework/` 下创建新的 `.md` 文件
+- **修改评分标准** — 编辑 `references/metrics/` 下对应维度的文件
+- **调整毒舌风格** — 编辑 `references/persona.md` 和 `references/report/sarcasm.md`
 
 ### 添加自定义规则示例
 
-假设要为 Kotlin 添加语言规则，创建 `rules/language/kotlin.md`：
+假设要为 Kotlin 添加语言规则，创建 `references/rules/language/kotlin.md`：
 
 ```markdown
 # Kotlin 语言专项规则
